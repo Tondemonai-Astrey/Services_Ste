@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Banner Section */
+  #banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .banner-content {
+    color: #fff;
+  }
+  
+  .banner-content h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .banner-content p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 40px 0;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .contact-info p {
+    margin: 0 0 10px;
+  }
+
+  /* #contact .logo {
+    float: right;
+    margin-left: 10px;
+  } */
+
+  #contact .logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  #contact .logo {
+    width: 80px; /* Задайте ширину зображення за вашим бажанням */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    margin-bottom: 10px; /* Відступ від нижнього краю контейнера */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #about_all {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
